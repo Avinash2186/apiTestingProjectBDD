@@ -16,3 +16,8 @@ Scenario: Verify Response when user get list of all books FOR SMOKE.
 Scenario: Verify Response when user get list of all books for REGRESSION.
 	Given A list of books are available
 	Then Response Body Contains some data
+	
+@REGRESSION
+Scenario: Added to Check Jenkins Reports list of all books for REGRESSION.
+	Given A list of books are available
+	Then Response Body Contains some data
